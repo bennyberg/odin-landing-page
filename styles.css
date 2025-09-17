@@ -1,0 +1,25 @@
+body{
+    font: Roboto;
+}
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+
+.header-logo{
+        color: #F9FAF8;
+        font-weight: bold;
+        font-size: 24px;
+}
+
+.header-links{
+    display: flex;
+    color: #E5E7EB;
+    gap: 16px;
+    font-size: 18px;
+
+
+}
