@@ -3,6 +3,7 @@ body{
     margin: 0;
     /* display: flex; */
     /* flex-direction: column; */
+
 }
 
 .header, .hero{
@@ -117,7 +118,7 @@ body{
     padding: 24px;
     display: flex;
     justify-content: center;
-    gap:24px
+    gap:24px;
 }
 
 .card-subtext{
@@ -126,6 +127,31 @@ body{
     /* justify-content: center; */
     /* flex-wrap: wrap; */
     /* align-items: center; */
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+}
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: left;
+    color:#1F2937;
+    /* align-items: center; */
+    
+    
+}
+.quote-subtext{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
