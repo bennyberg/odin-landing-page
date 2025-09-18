@@ -1,1 +1,1 @@
-# odin-landing-page
+An implementation of a sample landing page.
