@@ -180,8 +180,8 @@ body{
 
 .call-to-action-text{
     color: #F9FAF8;
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 22px;
+    font-weight: 500;
 }
 .call-to-action-subtext{
     color: #E5E7EB;
@@ -193,13 +193,13 @@ body{
     border-color: #E5E7EB;
     border-width: 2px;
     border:solid;
-    /* background-color: ; */
-
 }
 
-
-
-
-
-
-
+.footer{
+    /* display: flex; */
+    text-align: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding:18px;
+    font-size: 14px;
+}
