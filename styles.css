@@ -17,6 +17,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 48px;
+    padding-top: 12px;
 }
 
 .header-logo{
@@ -113,6 +114,7 @@ body{
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    gap:4px;
 }
 
 .information-cards{
@@ -123,11 +125,8 @@ body{
 }
 
 .card-subtext{
-    /* display: flex; */
     text-align: center;
-    /* justify-content: center; */
-    /* flex-wrap: wrap; */
-    /* align-items: center; */
+    font-size: 14px;
 }
 
 .quote-section{
@@ -145,7 +144,6 @@ body{
     font-weight: 300;
     text-align: left;
     color:#1F2937;
-    /* align-items: center; */
     
     
 }
@@ -166,16 +164,12 @@ body{
     background-color: #3882F6;
     border-color: #3882F6;
     color: #F9FAF8 ;
-    /* margin-top: 8px; */
     padding: 36px;
 }
 
 .call-to-action-left{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* gap: 2px */
 }
 
 .call-to-action-text{
@@ -186,7 +180,6 @@ body{
 .call-to-action-subtext{
     color: #E5E7EB;
     font-size: 16px;
-    /* font-weight: 300; */
 }
 
 .call-to-action-section .sign-up-button{
@@ -196,7 +189,6 @@ body{
 }
 
 .footer{
-    /* display: flex; */
     text-align: center;
     color: #E5E7EB;
     background-color: #1F2937;
